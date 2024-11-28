@@ -1,0 +1,90 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    font-size: large;
+    
+}
+header{
+    background-color: #32CD32;
+}
+.logo{
+    width: 100%;
+    border-radius: 0px;
+    background-color: rgb(134, 211, 211);
+    justify-items: flex-start;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+
+@keyframes logo{
+    from{background-color: #fff;}
+    to{background-color: rgb(134, 211, 211);}
+}
+.fs-4{
+    background-color: #fff;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+.logo img{
+    width: 400px;
+    border: 5px solid ble;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+}
+
+
+.right-bar {
+    margin-right: 20px;
+    width: 700px;
+    height: auto;
+    border: solid px blue;
+    
+}
+.main-bar{
+    display: flex;
+    direction: rtl;
+}
+.left-bar{
+    margin-left: 20px;
+    width: 700px;
+    height: auto;
+    border: solid px blue;
+}
+.lessons{
+   background-color: lightblue;
+
+}
+
+
+@media (max-width: 600px) {
+    .logo, img{
+        background-color: rb(134, 211, 211);
+        width: 600px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    header ul li{
+        background-color: re;
+        display: block;
+        width: 5%px;
+        height: 5%px;
+    }     
+    .main-bar{
+        margin-left: 3px;
+    }
+    .right-bar{
+        display: none;
+    }
+    .left-bar{
+        display: none;
+    }
+    
+}
+
