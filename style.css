@@ -4,24 +4,44 @@
     font-size: large;
     
 }
-header{
-    background-color: #32CD32;
+
+.main-containa{
+   
 }
+header{
+    background-color:;
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding: 0;
+    position: fixe;
+}
+h1{
+    text-align: cente;
+}
+
 .logo{
     width: 100%;
-    border-radius: 0px;
     background-color: rgb(134, 211, 211);
     justify-items: flex-start;
     cursor: pointer;
     margin-top: 20px;
     
 }
+.back-image img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
 
-
-@keyframes logo{
+/*@keyframes logo{
     from{background-color: #fff;}
     to{background-color: rgb(134, 211, 211);}
-}
+}*/
 .fs-4{
     background-color: #fff;
     animation-name: logo;
@@ -44,11 +64,15 @@ header{
     width: 700px;
     height: auto;
     border: solid px blue;
-    
+   
 }
 .main-bar{
     display: flex;
     direction: rtl;
+    
+}
+.list-unstyled{
+    box-shadow: 3px 3px rgb(222, 169, 169)
 }
 .left-bar{
     margin-left: 20px;
@@ -60,9 +84,23 @@ header{
    background-color: lightblue;
 
 }
-
+@media (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+   header{
+    width: 100%;
+    height: 200px;
+   }
+   .back-image img{
+    height: 300px;
+   }
+  
+}
 
 @media (max-width: 600px) {
+    
+
     .logo, img{
         background-color: rb(134, 211, 211);
         width: 600px auto;
@@ -70,6 +108,7 @@ header{
 }
 
 @media (max-width: 600px) {
+   
     header ul li{
         background-color: re;
         display: block;
